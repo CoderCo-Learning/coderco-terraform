@@ -4,19 +4,16 @@
 
 ---
 
-## **Assignment Overview**
+## Assignment Overview
 
-You are tasked with creating a **fully functional** infrastructure for WordPress, backed by Amazon RDS (bonus) otherwise you may run the database on the same instance as the WordPress application and using HashiCorp Vault to store secrets (like DB credentials). 
+You are tasked with creating a **fully functional** infrastructure for WordPress, backed by Amazon RDS (bonus) otherwise you may run the database on the same instance as the WordPress application and using HashiCorp Vault to store secrets (like DB credentials).
 
-What you need:
+Tasks:
 
-- Vault & Wordpress must be created via AMIs. (Packer or not you decide. Bonus points for Packer)
-- New VPC with all required components. 
-- Database in RDS gets bonus points. Otherwise, you may run the database on the same instance as the WordPress application.
+- Deploy Vault and WordPress servers. Use AMIs for this. Again bonus for using ASGs. (Packer or not you decide. Bonus points for Packer)
+- New VPC with all required components.
+- Deploying your DB in RDS gets bonus points. Otherwise, you may run the database on the same instance as the WordPress application.
 - ALL secrets must be stored in Vault.
-- Separate EC2 instances for Vault and WordPress.
-- Localstack usage/demonstration is optional but a BONUS.
-- The application must be accessible via a public IP address.
 - The application must be accessible via a public domain name.
 - BONUS: Use Packer to create AMIs for Vault and WordPress.
 - BONUS: Create a CICD pipeline to deploy the infrastructure and to build the AMIs.
@@ -24,7 +21,7 @@ What you need:
 
 ---
 
-## Guidelines**
+## Guidelines
 
 1. **ALL CLOUD INFRASTRUCTURE MUST BE CREATED VIA TERRAFORM**
 
