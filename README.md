@@ -29,6 +29,8 @@ Tasks:
    - This assignment expects you to research best practices (e.g., how to set up Vault properly, how to secure WordPress, RDS, create AMIs properly).  
    - Do **not** store secrets in Git. Use Vault or variable files that aren’t committed.
 
+3. Documentation is a MUST and HOW TOs. Architecture diagrams too.
+
 ## Tips
 
 - Use a sandbox AWS environment to spin up your infrastructure. If you're using AWS, setup billing. 
